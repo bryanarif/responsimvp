@@ -1,13 +1,7 @@
 package com.responsi.mvp.model;
 
-import com.google.gson.annotations.SerializedName;
-
 public class Timezone{
-
-	@SerializedName("offset")
 	private String offset;
-
-	@SerializedName("description")
 	private String description;
 
 	public void setOffset(String offset){

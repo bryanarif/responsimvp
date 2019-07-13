@@ -1,14 +1,7 @@
 package com.responsi.mvp.model;
 
-
-import com.google.gson.annotations.SerializedName;
-
 public class Coordinates{
-
-	@SerializedName("latitude")
 	private String latitude;
-
-	@SerializedName("longitude")
 	private String longitude;
 
 	public void setLatitude(String latitude){

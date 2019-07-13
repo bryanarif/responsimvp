@@ -1,26 +1,11 @@
 package com.responsi.mvp.model;
 
-
-import com.google.gson.annotations.SerializedName;
-
 public class Location{
-
-	@SerializedName("city")
 	private String city;
-
-	@SerializedName("street")
 	private String street;
-
-	@SerializedName("timezone")
 	private Timezone timezone;
-
-	@SerializedName("postcode")
 	private int postcode;
-
-	@SerializedName("coordinates")
 	private Coordinates coordinates;
-
-	@SerializedName("state")
 	private String state;
 
 	public void setCity(String city){

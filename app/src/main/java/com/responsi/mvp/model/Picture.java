@@ -1,17 +1,8 @@
 package com.responsi.mvp.model;
 
-
-import com.google.gson.annotations.SerializedName;
-
 public class Picture{
-
-	@SerializedName("thumbnail")
 	private String thumbnail;
-
-	@SerializedName("large")
 	private String large;
-
-	@SerializedName("medium")
 	private String medium;
 
 	public void setThumbnail(String thumbnail){

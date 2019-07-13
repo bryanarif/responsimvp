@@ -1,14 +1,9 @@
 package com.responsi.mvp.model;
 
 import java.util.List;
-import com.google.gson.annotations.SerializedName;
 
 public class Response{
-
-	@SerializedName("results")
 	private List<ResultsItem> results;
-
-	@SerializedName("info")
 	private Info info;
 
 	public void setResults(List<ResultsItem> results){

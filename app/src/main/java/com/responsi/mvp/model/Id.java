@@ -1,14 +1,7 @@
 package com.responsi.mvp.model;
 
-import com.google.gson.annotations.SerializedName;
-
-
 public class Id{
-
-	@SerializedName("name")
 	private String name;
-
-	@SerializedName("value")
 	private Object value;
 
 	public void setName(String name){

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -9,23 +10,35 @@
         android:id="@+id/nama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="email"/>
+        android:text="email"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="38dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/team"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="nama" />
+        android:text="nama"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="nohp" />
+        android:text="nohp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="19dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/img_ikon"
         android:layout_width="98dp"
-        android:layout_height="76dp" />
+        android:layout_height="76dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
 
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,19 +1,9 @@
 package com.responsi.mvp.model;
 
-import com.google.gson.annotations.SerializedName;
-
 public class Info{
-
-	@SerializedName("seed")
 	private String seed;
-
-	@SerializedName("page")
 	private int page;
-
-	@SerializedName("results")
 	private int results;
-
-	@SerializedName("version")
 	private String version;
 
 	public void setSeed(String seed){
